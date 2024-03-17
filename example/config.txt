@@ -1,0 +1,2 @@
+Prefix plugins/QRQC/example/
+Plugin QRQC inputfile S12_R1.fastq outputfile output.pdf
