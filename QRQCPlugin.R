@@ -8,6 +8,8 @@ run <- function() {}
 
 output <- function(outfile) {
 pdf(outfile)
+#print(str(s.fastq))
+write.csv(s.fastq@kmer$position, paste(outfile, "csv", sep="."))
 qualPlot(s.fastq)
 basePlot(s.fastq)
 seqlenPlot(s.fastq)
